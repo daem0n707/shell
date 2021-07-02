@@ -19,6 +19,6 @@ text <message>
 press <key> 
 ```
 All other inputs other than the ones mentioned above will be executed on the terminal by default.
-**To send multiple commands simultaneously, seperate the commands with `&` without space.
+**To send multiple commands simultaneously, seperate the commands with `&` without space.**
 
-EG: browse youtube.com&alert SURPRISE!**
+**EG: browse youtube.com&alert SURPRISE!**
