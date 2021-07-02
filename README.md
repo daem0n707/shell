@@ -32,5 +32,16 @@ All other inputs other than the ones mentioned above will be executed on the ter
 
 **This script was written considering the fact that both the host machine and the server runs python.**
 
-To begin with, run the `host.py` file on the host and connect to the host through `server.py` 
+To begin with, run the `host.py` file on the host and connect to it through `server.py` .
+
+## Dependencies
+
+**Install the dependencies through the following commands**
+
+```
+pip3 install webbrowser
+pip3 install easygui
+pip3 install pyautogui
+```
+
 
