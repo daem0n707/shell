@@ -1,7 +1,8 @@
 import socket, pyautogui, easygui
 import subprocess, os, time, webbrowser
 
-brave = "C:/Program Files/BraveSoftware/Brave-Browser/Application/brave.exe %s"
+browser = " %s" #Path to executable browser file 
+                #NOTE: Do not remove %s after the file path
 
 def host():
     s = socket.socket()
@@ -36,7 +37,7 @@ def host():
                     pyautogui.keyUp(i)
                 conn.send("\nKeys pressed".encode())
             elif command.startswith("browse"):
-                webbrowser.get(brave).open(command[7:])
+                webbrowser.get(browser).open(command[7:])
                 conn.send(f"Search query passed --> {command[7:]}".encode())
             elif command.startswith("type"):
                 pyautogui.typewrite(command[5:])
