@@ -1,4 +1,4 @@
-# ReverseShell
+# Reverse Shell
 
 Connect to a host machine on your network with it's IPv4 address and execute commands remotely. 
 
@@ -20,4 +20,5 @@ press <key>
 ```
 All other inputs other than the ones mentioned above will be executed on the terminal by default.
 **To send multiple commands simultaneously, seperate the commands with `&` without space.
+
 EG: browse youtube.com&alert SURPRISE!**
