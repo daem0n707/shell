@@ -51,6 +51,8 @@ All other inputs other than the ones mentioned above will be executed on the ter
 
 To begin with, run the `host.py` file on the host and connect to it through `server.py` .
 
+*Quick tip: Use the command `pythonw host.py` on the host machine to run python in the background.*
+
 ## Dependencies
 
 **Install the dependencies on the host with the following commands**
