@@ -4,8 +4,8 @@ Connect to a host machine on your network with it's IPv4 address and execute com
 
 ## Features
 
-- Send alert messages with Pyautogui
-- Get user input through text box
+- Send alert messages with `Pyautogui`
+- Get user input through `easygui` text box
 - Open URLs in web browser
 - Enter keys remotely
 - Send multiple commands simultaneously 
@@ -17,8 +17,20 @@ browse <url>
 alert <message>
 text <message>
 press <key> 
+kill 
+terminate
 ```
 All other inputs other than the ones mentioned above will be executed on the terminal by default.
+
+**Note: `kill` command breaks the loop on the server while the host would still be listening for new connections. To close the socket completely, use the `terminate` command.**
+
 **To send multiple commands simultaneously, seperate the commands with `&` without space.**
 
 **EG: browse youtube.com&alert SURPRISE!**
+
+## Functioning
+
+**This script was written considering the fact that both the host machine and the server runs python.**
+
+To begin with, run the `host.py` file on the host and connect to the host through `server.py` 
+
