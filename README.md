@@ -29,7 +29,7 @@ All other inputs other than the ones mentioned above will be executed on the ter
 
 **EG: browse youtube.com&alert SURPRISE!**
 
-### Entering keys:
+## Entering keys:
 
 **Some basic keys and their names:**
 
