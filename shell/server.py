@@ -2,13 +2,13 @@ import socket
 
 s = socket.socket()
 port = 8080
-host = "192.168.29.179"
+host = "" #IPv4 Address of host machine
 s.connect((host, port))
 print("[+] Connected to host machine")
 print("")
 
 while True:
-    command = input(str("root@daemon:~$ "))
+    command = input(str("shell:~$ "))
     s.send(command.encode())
     if command == "kill":
         s.send(command.encode())
