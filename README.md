@@ -39,6 +39,7 @@ All other inputs other than the ones mentioned above will be executed on the ter
 - Control key: `ctrl`
 - Shift: `shift`
 - Enter: `enter`
+- Arrow keys: `up`, `down`, `left`, `right`
 
 ### Examples
 - `press ctrl,tab` --> Switches tabs
