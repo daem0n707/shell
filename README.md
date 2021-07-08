@@ -1,6 +1,6 @@
 # Reverse Shell
 
-Connect to a host machine on your network with it's IPv4 address and execute commands remotely. 
+Connect to a host machine on your network and execute commands remotely. 
 
 ## Features
 
