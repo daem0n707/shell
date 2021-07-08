@@ -56,7 +56,7 @@ To begin with, run the `host.py` file on the host and connect to it through `ser
 
 ## Dependencies
 
-**Install the dependencies on the host with the following commands**
+**Dependencies:**
 
 ```
 pip3 install webbrowser, easygui, pyautogui
