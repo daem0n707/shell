@@ -42,7 +42,7 @@ All other inputs other than the ones mentioned above will be executed on the ter
 - Arrow keys: `up`, `down`, `left`, `right`
 
 ### Examples
-- `press ctrl,tab` --> Switches tabs
+- `press ctrl,tab` --> Switches window
 - `type Step away from my device!` --> Types the message on the keyboard
 - `press win,r` --> Opens windows run 
 
