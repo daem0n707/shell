@@ -4,8 +4,7 @@ s = socket.socket()
 port = 8080
 host = "" #IPv4 Address of host machine
 s.connect((host, port))
-print("[+] Connected to host machine")
-print("")
+print("[+] Connected to host machine\n")
 
 while True:
     command = input(str("shell:~$ "))
